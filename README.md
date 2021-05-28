@@ -17,11 +17,9 @@ In this challenge, we ask you to build a predictive model that answers the quest
 I have used the scikit-learn library and applied the ensemble Random Forest Classifier using pipelines and RandomizedSearchCV for hyperparameter tunning. On top of that I added cross-validation techniques to evaluate the model with best estimators on the test data. The final score was 0.75.
 
 ### Libraries used
-* `sklearn RandomForestClassifier`
-* `sklearn RandomizedSearchCV`
-* `sklearn cross_validate`
-* `sklearn ShuffleSplit`
+* `sklearn` 
 * `pandas`
+* `numpy`
 * `searborn`
 * `matplotlib`
 
