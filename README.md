@@ -1,6 +1,6 @@
 # Titanic-Machine-Learning-from-Disaster
 
-This repository presents my results on the legendary Titanic ML competition. The goal was to use machine learning classification classifiers to predict which passengers survived the Titanic shipwreck.
+This repository presents my results on the legendary Titanic ML competition. The goal was to use machine learning classification classifiers to predict which passengers survived the Titanic shipwreck. I have uploaded a Jupyter notebook with the colpete work done and a python .py file with an extraction of the code used for the Random Forest classifier. It seems jupyter notebooks are not rendered properly in github.
 
 ## The Challenge
 
