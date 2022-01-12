@@ -1,27 +1,14 @@
-# Titanic-Machine-Learning-from-Disaster
+# Titanic survival project
 
-This repository presents my results on the legendary Titanic ML competition. The goal was to use machine learning classification classifiers to predict which passengers survived the Titanic shipwreck. I have uploaded a Jupyter notebook with the colpete work done and a python .py file with an extraction of the code used for the Random Forest classifier. It seems jupyter notebooks are not rendered properly in github.
+<p align="center">
+<img src="images/Titanic.jpg" width="500">
+</p>
 
-## The Challenge
 
-The sinking of the Titanic is one of the most infamous shipwrecks in history.
+RMS Titanic was a British passenger liner, operated by the White Star Line, which sank in the North Atlantic Ocean on 15 April 1912 after striking an iceberg during her maiden voyage from Southampton, UK, to New York City. Unfortunately, there weren’t enough lifeboats for everyone onboard, resulting in the death of 1502 out of 2224 passengers and crew which made the sinking possibly one of the deadliest for a single ship up to that time. It remains to this day the deadliest peacetime sinking of a superliner or cruise ship.
 
-On April 15, 1912, during her maiden voyage, the widely considered “unsinkable” RMS Titanic sank after colliding with an iceberg. Unfortunately, there weren’t enough lifeboats for everyone onboard, resulting in the death of 1502 out of 2224 passengers and crew.
+While there was some element of luck involved in surviving, it seems some groups of people were more likely to survive than others. This project aims to develop a machine learning classifiers to predict which passengers survived the Titanic shipwreck given features like age, gender, socio-economic class, etc.
 
-While there was some element of luck involved in surviving, it seems some groups of people were more likely to survive than others.
+## About the data
 
-In this challenge, we ask you to build a predictive model that answers the question: “what sorts of people were more likely to survive?” using passenger data (ie name, age, gender, socio-economic class, etc).
-
-## My Work
-
-I have used the scikit-learn library and applied the ensemble Random Forest Classifier using pipelines and RandomizedSearchCV for hyperparameter tunning. On top of that I added cross-validation techniques to evaluate the model with best estimators on the test data. The final score was 0.75.
-
-### Libraries used
-* `sklearn` 
-* `pandas`
-* `numpy`
-* `searborn`
-* `matplotlib`
-
-## Reference
-https://www.kaggle.com/c/titanic
+The data was downloaded from <a href="https://www.kaggle.com/c/titanic">Kaggle</a> and only the trainning set is in use for this project. The trainning set containg the target variable and can be used to evaluate our model. The test set, without the target, is used for predictions when participating in the Kaggle competition.
