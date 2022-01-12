@@ -12,3 +12,25 @@ While there was some element of luck involved in surviving, it seems some groups
 ## About the data
 
 The data was downloaded from <a href="https://www.kaggle.com/c/titanic">Kaggle</a> and only the trainning set is in use for this project. The trainning set containg the target variable and can be used to evaluate our model. The test set, without the target, is used for predictions when participating in the Kaggle competition.
+
+<p align="center">
+<img src="images/data_table.png" width="500">
+</p>
+
+**Variable Notes**
+
+- `pclass`: A proxy for socio-economic status (SES)<br> 
+ 1st: Upper<br> 
+ 2nd: Middle<br>
+ 3rd: Lower<br>
+
+- `age`: Age is fractional if less than 1. If the age is estimated, is it in the form of xx.5
+
+- `sibsp`: The dataset defines family relations in this way:<br>
+Sibling: brother, sister, stepbrother, stepsister<br>
+Spouse: husband, wife (mistresses and fiancés were ignored)<br>
+
+- `parch`: The dataset defines family relations in this way:<br>
+Parent: mother, father<br>
+Child: daughter, son, stepdaughter, stepson<br>
+Some children travelled only with a nanny, therefore parch=0 for them.<br>
